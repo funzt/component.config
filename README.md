@@ -9,7 +9,7 @@ functionality.
 
 ## Usage
 
-Add the library `[org.funzt/component.config]` to your project
+Add the library `[org.funzt/component.config "0.1.0"]` to your project
 dependencies.
 
 Require the namespace `funzt.component.config`
