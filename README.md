@@ -1,7 +1,5 @@
 # funzt.component.config
 
-[![Clojars Project](https://img.shields.io/clojars/v/org.funzt/component.config.svg)](https://clojars.org/org.funzt/component.config)
-
 A minimalist configuration framework for component systems of Stuart
 Sierra's component lib.
 
@@ -10,6 +8,9 @@ configuration for component systems accompanyied by utility
 functionality.
 
 ## Usage
+
+Add the library `[org.funzt/component.config]` to your project
+dependencies.
 
 Require the namespace `funzt.component.config`
 
@@ -45,7 +46,8 @@ Then simply create a component system using config/setup
 
 ## License
 
-Copyright © 2016 Leon Grapenthin
+Copyright © 2016 Leon Grapenthin & [funzt.jetzt](http://funzt.jetzt)
+UG (haftungsbeschränkt)
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
