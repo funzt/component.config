@@ -1,5 +1,7 @@
 # funzt.component.config
 
+[![Clojars Project](https://img.shields.io/clojars/v/org.funzt/component.config.svg)](https://clojars.org/org.funzt/component.config)
+
 A minimalist configuration framework for component systems of Stuart
 Sierra's component lib.
 
@@ -8,6 +10,8 @@ configuration for component systems accompanyied by utility
 functionality.
 
 ## Usage
+
+Require the namespace `funzt.component.config`
 
 Inside your source code, have a map with component constructors.  Each
 constructor must accept a map `{:config <config>}` and return a
