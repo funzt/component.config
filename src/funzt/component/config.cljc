@@ -26,7 +26,7 @@
   [key->ctor key->config]
   (component/map->SystemMap
    (into {}
-         (comp (if-let [disabled-ks (:disabled key->config)]
+         (comp (if-let [disabled-ks (:setup/disabled key->config)]
                  (remove (comp disabled-ks key))
                  identity)
                (map (fn [[k ctor]]

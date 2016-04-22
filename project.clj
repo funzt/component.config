@@ -1,4 +1,4 @@
-(defproject org.funzt/component.config "0.1.0"
+(defproject org.funzt/component.config "0.1.1"
   :description "Configuration framework for component systems"
   :url "http://github.com/funzt/component.config"
   :license {:name "Eclipse Public License"
