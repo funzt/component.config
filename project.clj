@@ -3,5 +3,6 @@
   :url "http://github.com/funzt/component.config"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.9.0-alpha2"]
-                 [com.stuartsierra/component "0.3.1"]])
+  :dependencies [[org.clojure/clojure "1.9.0-alpha3"]
+                 [com.stuartsierra/component "0.3.1"]]
+  :profiles {:dev {:dependencies [[org.clojure/test.check "0.9.0"]]}})
